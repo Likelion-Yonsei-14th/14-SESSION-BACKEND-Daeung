@@ -1,2 +1,2 @@
 # 14-SESSION-BACKEND-Daeung
-0319 세션 실습
+세션 실습용 레포지토리
