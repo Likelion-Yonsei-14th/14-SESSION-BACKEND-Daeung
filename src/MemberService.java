@@ -1,10 +1,9 @@
 public class MemberService {
 
-    private MemoryMemberRepository repository = new MemoryMemberRepository();
+    private MemberRepository repository = new MemoryMemberRepository();
 
     public void join(String name) {
-        Member member = new Member();
-        member.name = name;
+        Member member = new Member(name);
 
         repository.save(member);
     }
