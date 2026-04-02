@@ -1,8 +1,11 @@
 package com.example.demo.service;
 
+import org.springframework.stereotype.Service;
+
 import com.example.demo.discount.DiscountPolicy;
 import com.example.demo.member.Member;
 
+@Service
 public class OrderService {
 
    private final DiscountPolicy discountPolicy;
